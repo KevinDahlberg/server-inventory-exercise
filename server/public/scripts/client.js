@@ -1,7 +1,7 @@
 $(function(){
   console.log("Jquery Ready!");
 //Button functionality
-//buttons for adding items
+  //buttons for adding items
   $("#addItemButton").on('click', function(){
     console.log("Add Item Button Clicked");
   });
@@ -17,4 +17,18 @@ $(function(){
   $("#clearSearchButton").on('click', function(){
     console.log("Clear search button clicked");
   });
+
+//functions
+  var getInventory = function(){
+    console.log("Get Inventory Function");
+    $.ajax({
+      type: 'GET',
+      url: '/inventory',
+      success: function(response){
+        console.log('back from inventory with: ', response);
+      //display inventory to DOM
+      display
+      }
+    })
+  }
 });
