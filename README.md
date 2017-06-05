@@ -5,9 +5,9 @@ Application that shows an "inventory" that is saved on the server.  Items can be
 ## Getting Started
 
 * Download the project.
-* command line - in the directory that the project is stored:
-1. npm install
-2. npm start
+* Command line - in the directory that the project is saved:
+  1. npm install
+  2. npm start
 * go to localhost:4000 in the browser
 
 ## Built With
